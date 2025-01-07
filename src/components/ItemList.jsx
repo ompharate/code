@@ -27,7 +27,7 @@ export function ItemList({ onSelectItem }) {
       {SAMPLE_ITEMS.map((item) => (
         <div
           key={item.id}
-          className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+          className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow "
         >
           <img
             src={item.image}
